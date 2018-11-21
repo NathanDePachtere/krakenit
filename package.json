@@ -1,7 +1,19 @@
 {
   "devDependencies": {
+    "@fortawesome/fontawesome-pro": "^5.5.0",
     "@symfony/webpack-encore": "^0.22.1",
+    "bootstrap": "^4.1.3",
+    "copy-webpack-plugin": "^4.6.0",
+    "hammerjs": "^2.0.8",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.10.0",
+    "popper.js": "^1.14.5",
+    "sass-loader": "^7.1.0",
     "sweetalert2": "^7.29.1",
     "webpack-notifier": "^1.7.0"
+  },
+  "dependencies": {
+    "hammer": "^0.0.5",
+    "popper": "^1.0.1"
   }
 }

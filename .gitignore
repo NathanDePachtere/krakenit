@@ -6,8 +6,10 @@
 /public/bundles/
 /var/
 /vendor/
+/public/build/
 ###< symfony/framework-bundle ###
 
 ###> symfony/web-server-bundle ###
 /.web-server-pid
 ###< symfony/web-server-bundle ###
+/yarn-error.log
