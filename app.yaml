@@ -1,0 +1,17 @@
+runtime: php
+env: flex
+
+runtime_config:
+  document_root: public
+
+manual_scaling:
+  instances: 1
+
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 5
+
+env_variables:
+  APP_ENV: "prod"
+  APP_SECRET: "2ff50d53383f522cfef4efd6c4119283"
