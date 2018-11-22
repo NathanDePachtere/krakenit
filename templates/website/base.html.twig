@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}NATHAN DE PACHTERE{% endblock %}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="icon" type="image/x-icon" href="{{ asset("favicon.ico") }}"/>
+        {% block stylesheets %}
+            <link href="{{ asset('build/layout.css') }}" rel="stylesheet">
+            <link href="{{ asset('build/website_main.css') }}" rel="stylesheet">
+        {% endblock %}
+    </head>
+    <body>
+    <header>
+        {% block header %}
+            {% block navigation %}
+
+            {% endblock %}
+            {% block header_content %}
+            {% endblock %}
+        {% endblock %}
+    </header>
+        <main>
+            <div class="cointainer-fluid">
+        {% block body %}
+
+        {% endblock %}
+            </div>
+        </main>
+
+        {% block javascripts %}
+            <script type="text/javascript" src="{{ asset('build/runtime.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('build/layout.js') }}"></script>
+        {% endblock %}
+    </body>
+</html>

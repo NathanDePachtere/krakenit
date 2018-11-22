@@ -15,5 +15,11 @@
   "dependencies": {
     "hammer": "^0.0.5",
     "popper": "^1.0.1"
+  },
+  "scripts": {
+    "dev-server": "encore dev-server",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production"
   }
 }

@@ -1,0 +1,49 @@
+{% extends "website/base.html.twig" %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link href="{{ asset('build/homepage.css') }}" rel="stylesheet">
+{% endblock %}
+
+{% block header_content %}
+    <div class="view jarallax"  style="background-image: url('{{ asset('build/website/static/Intro-1.jpg') }}'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+            <div class="container-fluid px-md-3 px-sm-0">
+                <div class="row d-flex justify-content-center">
+                    <div id="homepage-description" class="col-md-4 mb-4 pb-3 white-text text-center wow fadeIn" data-wow-delay="1s">
+                        <h1 class="white-text">NATHAN DE PACHTERE</h1>
+                        <h2 class="mb-2"> PHOTOGRAPHY // GRAPHIC DESIGN // WEBSITE</h2>
+                        <p class="mt-4 pl-4 pr-4">Photographer, Designer, Webmaster & Nature Lover. Freelancer currently
+                            residing in Annecy, France mainly building identities for businesses and projects. </p>
+                        <!--<div class="action-buttons d-flex justify-content-center">
+                            <a class="btn gradient-1 btn-rounded btn-sm">Services</a>
+                            <a class="btn gradient-2 btn-rounded btn-sm">Portfolio</a>
+                            <a class="btn gradient-3 btn-rounded btn-sm">Resources</a>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="d-flex justify-content-end align-items-end fixed-bottom">
+            <div class="container-fluid px-md-3 px-sm-0">
+                <div class="row wow fadeIn d-flex justify-content-center" data-wow-delay="1s">
+                    <div class="social-buttons d-flex justify-content-end mb-2">
+                        <a href="https://www.instagram.com/nathandepachtere/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/NathanDePachterePhoto/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/channel/UCObL-YmwNSWyoKhjkA0osSQ" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.pinterest.ca/nathandepachtere/" target="_blank"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block body %}
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script type="text/javascript" src="{{ asset('build/homepage.js') }}"></script>
+{% endblock %}
