@@ -20,7 +20,7 @@ Encore
     .autoProvidejQuery()
     .addPlugin(new CopyWebpackPlugin([
         {from: './assets/website/static', to: 'website/static'},
-        {from: './assets/app/static', to: 'app/static'}
+        /*{from: './assets/app/static', to: 'app/static'}*/
     ]))
     .enableSassLoader()
     .enableSourceMaps(!Encore.isProduction())
