@@ -13,3 +13,4 @@
 /.web-server-pid
 ###< symfony/web-server-bundle ###
 /yarn-error.log
+/assets/app/static/
