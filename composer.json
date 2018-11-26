@@ -8,6 +8,7 @@
         "sensio/framework-extra-bundle": "^5.2",
         "symfony/asset": "4.1.*",
         "symfony/console": "4.1.*",
+        "symfony/dotenv": "4.1.*",
         "symfony/flex": "^1.1",
         "symfony/framework-bundle": "4.1.*",
         "symfony/maker-bundle": "^1.9",
@@ -17,10 +18,14 @@
         "symfony/yaml": "4.1.*"
     },
     "require-dev": {
+        "easycorp/easy-log-handler": "^1.0.7",
         "sensiolabs/security-checker": "^5.0",
-        "symfony/debug-pack": "^1.0",
-        "symfony/dotenv": "4.1.*",
-        "symfony/profiler-pack": "^1.0"
+        "symfony/debug-bundle": "^3.3|^4.0",
+        "symfony/monolog-bundle": "^3.0",
+        "symfony/stopwatch": "^3.3|^4.0",
+        "symfony/twig-bundle": "^3.3|^4.0",
+        "symfony/var-dumper": "^3.3|^4.0",
+        "symfony/web-profiler-bundle": "^3.3|^4.0"
     },
     "config": {
         "preferred-install": {
